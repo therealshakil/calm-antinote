@@ -69,6 +69,12 @@ the clay accent on numbers — follows the calm palette.
 For the fullest calm, in **Visuals** also set: Paper Type **Blank**, Paper Type Opacity **Subtle**,
 translucency **off**. Quiet ground, no pattern, solid page.
 
+## On Linux
+
+Antinote is macOS only.
+On Linux, [Whisp](https://github.com/tanaybhomia/Whisp) is the closest match,
+and the same palette for it lives in [`Whisp/`](Whisp/README.md).
+
 ## Submitting to the community themes
 
 The [antinote-extensions](https://github.com/johnsonfung/antinote-extensions) repo collects community

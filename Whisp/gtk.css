@@ -1,0 +1,55 @@
+/* Calm Paper + Calm Ink for Whisp (libadwaita 1.6+).
+   Light follows Calm Paper, dark follows Calm Ink; Whisp's own
+   system / light / dark switch picks between them. */
+
+:root {
+  --window-bg-color: #F7F4EC;
+  --window-fg-color: #26231E;
+  --view-bg-color: #F7F4EC;
+  --view-fg-color: #26231E;
+  --headerbar-bg-color: #F7F4EC;
+  --headerbar-fg-color: #26231E;
+  --headerbar-backdrop-color: #F7F4EC;
+  --headerbar-shade-color: #E4DCCB;
+  --sidebar-bg-color: #F1ECE0;
+  --sidebar-fg-color: #26231E;
+  --card-bg-color: #F1ECE0;
+  --card-fg-color: #26231E;
+  --dialog-bg-color: #F7F4EC;
+  --dialog-fg-color: #26231E;
+  --popover-bg-color: #F7F4EC;
+  --popover-fg-color: #26231E;
+  --accent-bg-color: #B5612F;
+  --accent-fg-color: #F7F4EC;
+  --accent-color: #A9601C;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --window-bg-color: #1B1814;
+    --window-fg-color: #ECE6D8;
+    --view-bg-color: #1B1814;
+    --view-fg-color: #ECE6D8;
+    --headerbar-bg-color: #1B1814;
+    --headerbar-fg-color: #ECE6D8;
+    --headerbar-backdrop-color: #1B1814;
+    --headerbar-shade-color: #2C2820;
+    --sidebar-bg-color: #221E19;
+    --sidebar-fg-color: #ECE6D8;
+    --card-bg-color: #221E19;
+    --card-fg-color: #ECE6D8;
+    --dialog-bg-color: #1B1814;
+    --dialog-fg-color: #ECE6D8;
+    --popover-bg-color: #221E19;
+    --popover-fg-color: #ECE6D8;
+    --accent-bg-color: #EDB489;
+    --accent-fg-color: #1B1814;
+    --accent-color: #EDB489;
+  }
+}
+
+/* The text selection, in the same warm highlight Antinote uses. */
+textview text selection {
+  background-color: alpha(var(--accent-bg-color), 0.25);
+  color: inherit;
+}
