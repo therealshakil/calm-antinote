@@ -8,4 +8,4 @@ colour. Built to match a calm terminal palette, so a note sits beside your termi
 - `calm-paper.json` — light
 - `calm-ink.json` — dark
 
-by [@shakilclark](https://github.com/shakilclark)
+by [@therealshakil](https://github.com/therealshakil)

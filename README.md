@@ -84,6 +84,6 @@ short README plus the theme JSON files.
 
 ## Credit
 
-Part of the [calm](https://github.com/shakilclark/calm) suite. The palette comes straight from calm's
+Part of the [calm](https://github.com/therealshakil/calm) suite. The palette comes straight from calm's
 design tokens and its `calm-paper` / `calm-ink` terminal themes — that shared source is the whole reason
 these match the terminal. Banner made with calm's `drift` ASCII engine.
